@@ -1,0 +1,70 @@
+# Visual Studio 2019 and .NET 6 specific
+.vs/
+obj/
+bin/
+*.suo
+*.user
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.sdf
+*.opensdf
+*.log
+*.tlog
+*.jfm
+*.jdf
+*.bak
+*.cache
+*.gpstate
+
+# .NET Core & .NET 5+ specific
+*.dll
+*.exe
+*.pdb
+*.dll
+*.exe
+*.snk
+*.userprefs
+*.log
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[TestResults/
+[Tt]est[Rr]esult*/
+_nuxt/
+node_modules/
+npm-debug.log*
+*.jfm
+*.jdf
+*.deployments
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NUNIT
+*.VisualState.xml
+TestResult.xml
+
+# Build Results of an ATL Project
+[Dd]ebugPS/
+[Rr]eleasePS/
+dlldata.c
+
+# Benchmark Results
+BenchmarkDotNet.Artifacts/
+
+# .NET Core CLI
+__project__/
+msbuild.log
+msbuild.err
+msbuild.wrn
